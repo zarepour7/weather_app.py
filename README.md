@@ -1,33 +1,30 @@
-# Weather App - Python
+# Weather App (Python)
 
-This is a simple command-line Python application that fetches and displays current weather data for a given city using the OpenWeatherMap API.
+A simple weather forecast app using the OpenWeatherMap API.
 
 ## Features
+- Get real-time weather data by city name
+- Displays temperature, humidity, and weather condition
 
-- Takes city name as user input
-- Uses `requests` to call OpenWeatherMap API
-- Displays temperature, humidity, weather description, and more
+## Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/zarepour7/weather-app.git
+   cd weather-app
+   ```
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Replace `API_KEY` in `weather_app.py` with your OpenWeatherMap API key.
+4. Run:
+   ```bash
+   python weather_app.py
+   ```
 
-## Requirements
+## Future Enhancements
+- Add 5-day forecast
+- Web interface using Streamlit
 
-- Python 3.x
-- `requests` library
-
-Install requirements with:
-
-pip install -r requirements.txt
-
-
-## Usage
-
-Run the script:
-
-python weather_app.py
-
-Then enter a city name (e.g., Shiraz, Tehran, etc.)
-
-> Note: Make sure you replace `api_key` in the script with your valid API key from [https://openweathermap.org](https://openweathermap.org)
-
-## Author
 
 Roya Zarepoor – 2025  
